@@ -1,0 +1,146 @@
+# ==============================================================================
+# Agentic-AI / LangChain Python Project
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Environment & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ------------------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[oc]
+*.pyd
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytest.ini
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# ------------------------------------------------------------------------------
+# Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# uv (package manager)
+# ------------------------------------------------------------------------------
+# Keep uv.lock committed for reproducible installs
+# uv.lock
+
+# ------------------------------------------------------------------------------
+# Jupyter Notebooks
+# ------------------------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ------------------------------------------------------------------------------
+# LangChain / AI / Vector Stores
+# ------------------------------------------------------------------------------
+# Local vector store databases
+chroma_db/
+faiss_index/
+*.faiss
+*.pkl
+vectorstore/
+db/
+
+# LangSmith / LangFuse traces (if saved locally)
+langchain_traces/
+
+# Model weights & large binary files
+*.bin
+*.pt
+*.pth
+*.gguf
+*.safetensors
+
+# ------------------------------------------------------------------------------
+# IDE & Editors
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# OS
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.directory
+
+# ------------------------------------------------------------------------------
+# Logs & Temporary Files
+# ------------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ------------------------------------------------------------------------------
+# Data Files (uncomment if you don't want to track raw data)
+# ------------------------------------------------------------------------------
+# data/
+# *.csv
+# *.json
+# *.jsonl
